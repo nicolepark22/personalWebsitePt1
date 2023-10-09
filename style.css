@@ -46,6 +46,57 @@ nav > a {
     font-weight: normal;
 }
 
+img {
+    position: absolute;
+    bottom: 350px;
+    left: 60%;
+    width: 450px;
+    height: 500px;
+    /* border: 20px solid #344966; */
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #bfcc94,
+    0 0 0 25px #344966;
+}
+
+/* #quote {
+    position: absolute;
+    bottom: 300px;
+    font-size: 35px;
+    color: #344966;
+} */
+
+.container {
+    display: flex;
+    max-width: 900px;
+    height: 900px;
+    margin: 0 0 0 15%;
+    /* background-color: aqua; */
+    align-items: flex-end;
+}
+
+.center-text {
+    font-size: 30px;
+    color: #344966;
+    line-height: 1.4;
+}
+
+#heading {
+    font-size: 60px;
+    margin-left: 70px;
+}
+
+#quote {
+    position: absolute;
+    left: 40%;
+    padding-top: 5%;
+    font-size: 75px;
+    color: #344966;
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+
+
 /* nav a {
     float: left;
     padding: 10px;
@@ -53,4 +104,20 @@ nav > a {
     text-decoration: none;
     font-size: 17px;
     text-align: ;
+} */
+/* h2 {
+    position: absolute;
+    bottom: 250px;
+    left: 25%;
+    font-size: 65px;
+    color: #344966;
+} */
+
+/* p {
+    position: absolute;
+    bottom: 1px;
+    font-size: 30px;
+    left: 28%;
+    right: 37%;
+    line-height: 1.4;
 } */
