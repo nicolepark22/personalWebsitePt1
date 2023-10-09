@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    height: 300vh;
+    background-color: #b4cded;
+    font-family: "Ubuntu", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #0b2027;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+    float: right;
+}
+nav > a {
+    color: #f0f4ef;
+    padding: 15px;
+    font-size: 25px;
+    margin: 0 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#name {
+    color: #f0f4ef;
+    padding: 15px;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* nav a {
+    float: left;
+    padding: 10px;
+    color: #F6F1D1;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: ;
+} */
