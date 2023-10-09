@@ -43,6 +43,7 @@ nav > a {
     margin: 0 0 0 10px;
     vertical-align: middle;
     display: inline-block;
+    font-weight: normal;
 }
 
 /* nav a {
