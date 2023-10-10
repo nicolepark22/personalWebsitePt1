@@ -45,16 +45,21 @@ nav > a {
     display: inline-block;
 }
 
+#contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
 img {
-    position: absolute;
-    bottom: 350px;
-    left: 60%;
+    position: relative;
     width: 450px;
     height: 500px;
     /* border: 20px solid #344966; */
     border-radius: 50%;
-    box-shadow: 0 0 0 7px #bfcc94,
-    0 0 0 25px #344966;
+    box-shadow: 0 0 0 7px #bfcc94, 0 0 0 25px #344966;
 }
 
 /* #quote {
@@ -85,16 +90,17 @@ img {
 }
 
 #quote {
-    position: absolute;
-    left: 40%;
-    padding-top: 5%;
     font-size: 75px;
     color: #344966;
-    font-family: 'Grand Hotel', cursive;
+    font-family: "Grand Hotel", cursive;
+    margin: 20px 0;
+    text-align: right;
 }
 
-
-
+#quoteAuthor {
+    padding-left: 5rem;
+    font-size: 50px;
+}
 
 /* nav a {
     float: left;
