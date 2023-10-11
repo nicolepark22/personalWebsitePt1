@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 50px;
+    height: 55px;
     width: 100%;
     background-color: #0b2027;
     position: fixed;
@@ -39,7 +39,7 @@ nav > a {
     color: #f0f4ef;
     padding: 15px;
     font-size: 12px;
-    margin: 0 0 0 10px;
+    margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
     font-weight: normal;
@@ -102,7 +102,12 @@ main {
 }
 
 hr {
+    border: none;
+    border-top: 3px dotted #bfcc94;
     color: #bfcc94;
+    background-color: #f0f4ef;
+    height: 1px;
+    margin: 20px 0;
 }
 
 #aboutMeHeader {
@@ -121,3 +126,36 @@ hr {
     float: right;
     margin: 10px 25px;
 }
+
+#mainPortfolio {
+    width: 85%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #344966;  
+}
+
+#portfolioHeader {
+    font-size: 60px;
+    color: #bfcc94
+}
+
+.myProjects {
+    display: flex;
+    justify-content: space-around;
+    background-color: #344966;
+  }
+  
+  .myProjects > div {
+    background-color: #bfcc94;
+    color: #344966;
+    width: 450px;
+    margin: 10px;
+    text-align: center;
+    height: 700px;
+    font-size: 25px;
+    padding: 15px
+  }
+
+  /* .projectHeader {
+padding-bottom: 5px;
+  } */
