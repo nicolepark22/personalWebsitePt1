@@ -22,7 +22,6 @@ header {
     font-family: "Ubuntu", sans-serif;
 }
 
-
 nav {
     float: right;
 }
@@ -73,6 +72,7 @@ nav > a {
 .center-text {
     font-size: 30px;
     color: #344966;
+    line-height: 1.4;
 }
 
 #heading {
@@ -83,36 +83,41 @@ nav > a {
     font-size: 75px;
     color: #344966;
     font-family: "Grand Hotel", cursive;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: right;
 }
 
 #quoteAuthor {
     padding-left: 5rem;
-    font-size: 50px;
+    font-size: 55px;
 }
 
-/* nav a {
-    float: left;
-    padding: 10px;
-    color: #F6F1D1;
-    text-decoration: none;
-    font-size: 17px;
-    text-align: ;
-} */
-/* h2 {
-    position: absolute;
-    bottom: 250px;
-    left: 25%;
-    font-size: 65px;
-    color: #344966;
-} */
+main {
+    /* display: block; */
+    width: 60%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #344966;
+    padding: 85px 24px 96px;
+}
 
-/* p {
-    position: absolute;
-    bottom: 1px;
-    font-size: 30px;
-    left: 28%;
-    right: 37%;
-    line-height: 1.4;
-} */
+hr {
+    color: #bfcc94;
+}
+
+#aboutMeHeader {
+    color: #bfcc94;
+    font-size: 60px;
+}
+
+.aboutMeSection {
+    color: #bfcc94;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+
+.aboutMeSection img {
+    height: 150px;
+    float: right;
+    margin: 10px 25px;
+}
