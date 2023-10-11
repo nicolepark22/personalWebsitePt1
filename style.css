@@ -51,6 +51,7 @@ nav > a {
     padding: 20px;
     max-width: 1000px;
     margin: 600px auto;
+    
 }
 #profileBanner {
     display: flex;
@@ -88,8 +89,10 @@ nav > a {
 }
 
 #quoteAuthor {
-    padding-left: 5rem;
     font-size: 55px;
+    text-align: right;
+    margin-right: 6rem;
+    line-height: 1.5;
 }
 
 main {
@@ -123,8 +126,10 @@ hr {
 
 .aboutMeSection img {
     height: 150px;
+    width: 225px;
     float: right;
     margin: 10px 25px;
+    border: 3px solid #0b2027;
 }
 
 #mainPortfolio {
@@ -153,9 +158,13 @@ hr {
     text-align: center;
     height: 700px;
     font-size: 25px;
-    padding: 15px
+    padding: 15px;
+    border: 3px solid #0b2027
   }
 
-  /* .projectHeader {
-padding-bottom: 5px;
-  } */
+ .portfolioPic {
+    height: 175px;
+    width: 225px;
+    border: 3px solid #0b2027;
+    margin-top: 10px 
+ }
