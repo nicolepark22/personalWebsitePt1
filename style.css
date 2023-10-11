@@ -51,7 +51,6 @@ nav > a {
     padding: 20px;
     max-width: 1000px;
     margin: 600px auto;
-    
 }
 #profileBanner {
     display: flex;
@@ -136,21 +135,22 @@ hr {
     width: 85%;
     min-height: 100vh;
     margin: auto;
-    background-color: #344966;  
+    background-color: #344966;
+    padding: 35px 24px 96px;
 }
 
 #portfolioHeader {
     font-size: 60px;
-    color: #bfcc94
+    color: #bfcc94;
 }
 
 .myProjects {
     display: flex;
     justify-content: space-around;
     background-color: #344966;
-  }
-  
-  .myProjects > div {
+}
+
+.myProjects > div {
     background-color: #bfcc94;
     color: #344966;
     width: 450px;
@@ -159,12 +159,12 @@ hr {
     height: 700px;
     font-size: 25px;
     padding: 15px;
-    border: 3px solid #0b2027
-  }
-
- .portfolioPic {
-    height: 175px;
-    width: 225px;
     border: 3px solid #0b2027;
-    margin-top: 10px 
- }
+}
+
+.portfolioPic {
+    height: 150px;
+    width: 200px;
+    border: 3px solid #0b2027;
+    margin-top: 10px;
+}
